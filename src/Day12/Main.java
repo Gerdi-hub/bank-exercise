@@ -15,7 +15,6 @@ public class Main {
         chooseNext();
     }
 
-
     public static void getUser() {
         Scanner scan = new Scanner(System.in);
 
@@ -32,7 +31,6 @@ public class Main {
                     account = oneAccount;
                     validatePin();
                     break;
-
                 }
             }
             if (!correctUser) {
